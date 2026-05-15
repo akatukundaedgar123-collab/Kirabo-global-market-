@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Kirabo Global Market</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header>
+<div class="logo">Kirabo Global Market</div>
+
+<select id="currency" onchange="changeCurrency()">
+<option value="UGX">UGX</option>
+<option value="USD">USD</option>
+<option value="EUR">EUR</option>
+<option value="GBP">GBP</option>
+</select>
+
+</header>
+
+<section class="hero">
+<h1>One Global Marketplace</h1>
+<p>Buy and sell across Africa, Europe, Asia, and America in one AI-powered system.</p>
+
+<input id="search" placeholder="Search global products..." />
+<button onclick="search()">Search</button>
+</section>
+
+<section class="grid" id="grid"></section>
+
+<section class="ai">
+<h2>Global AI Assistant</h2>
+<textarea id="prompt"></textarea>
+<button onclick="askAI()">Ask AI</button>
+<div id="out"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

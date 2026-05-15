@@ -1,0 +1,10 @@
+
+body{font-family:Arial;margin:0;background:#0b0b0b;color:white}
+header{display:flex;justify-content:space-between;padding:15px;background:#111;position:sticky;top:0}
+.logo{color:gold;font-weight:bold}
+.hero{text-align:center;padding:40px}
+input,textarea,select,button{padding:10px;margin:5px;border-radius:8px;border:none}
+button{background:gold;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;padding:20px}
+.card{background:#1a1a1a;padding:10px;border-radius:10px}
+.ai{padding:20px}
